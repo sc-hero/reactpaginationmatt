@@ -1,0 +1,27 @@
+{
+  "name": "react-pagination-matt",
+  "version": "1.0.3",
+  "description": "Global React Pagination Cursor Base System",
+  "main": "src/index.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/sc-hero/reactpaginationmatt",
+  "author": "Min Khant (Matt)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "tailwindcss": "^3.3.2"
+  }
+}
